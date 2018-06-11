@@ -2,10 +2,10 @@
 /plugin/;
 
 / {
-	compatible = "allwinner,sun4i-a13";
+	compatible = "rockchip,rk3288";
 
 	fragment@0 {
-		target = <&codec>;
+		target = <&i2c1>;
 		__overlay__ {
 			status = "okay";
 		};
